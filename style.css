@@ -1,0 +1,39 @@
+.img-thumbnail{
+    float: left;
+    display: block;
+    margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 360px;
+  width: 360px;
+  border-radius: 30%;
+  
+}
+
+h6 {
+    margin: 10px 10px 10px 10px;
+    
+}
+
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+ }
+
+
+@media only screen and (max-device-width: 450px) {
+     
+    .img-thumbnail{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+   
+} 
+
+
+
